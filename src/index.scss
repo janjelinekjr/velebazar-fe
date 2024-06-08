@@ -1,0 +1,11 @@
+.dataGridHeaderCell, .MuiDataGrid-filler, .MuiDataGrid-scrollbarFiller, .MuiDataGrid-scrollbarFiller--header, .MuiDataGrid-columnHeaderCheckbox {
+  background-color: #f5f5f5;
+  div {
+    font-weight: bold;
+  }
+}
+
+.dataGridCellCenterAlignment {
+  display: flex;
+  align-items: center;
+}
