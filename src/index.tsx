@@ -6,7 +6,7 @@ import RouteList from './RouteList';
 import {store} from './store/store';
 import {ThemeProvider} from '@emotion/react';
 import {CssBaseline} from '@mui/material';
-import {rbThemeMain} from "./rbThemeMain";
+import {themeMain} from "./themeMain";
 
 if (process.env.NODE_ENV === 'development') {
     // startWorker();
@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <React.StrictMode>
         <Provider store={store}>
             <ErrorBoundary>
-                <ThemeProvider theme={rbThemeMain()}>
+                <ThemeProvider theme={themeMain()}>
                     <CssBaseline />
                     <RouteList />
                 </ThemeProvider>
