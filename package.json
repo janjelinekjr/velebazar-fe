@@ -9,8 +9,7 @@
     "lint": "eslint mui --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "jest",
-    "msw-init": "npx msw init public --save",
-    "gen-mock-server": "npx msw-auto-mock openapi/swagger.yaml -o src/generatedMockServer/mock.js -m 3 --base-url https://localhost:9000"
+    "msw-init": "npx msw init public --save"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
